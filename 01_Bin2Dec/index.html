@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bin2Dec</title>
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1> Binary to Decimal</h1>
+
+        <div class="container">
+            <!-- Div for the binary input -->
+            <form>
+                <div>
+                    <label> Please, insert the binary value above: </label>
+                    <input id="valorBinario" class="insrt" type="text" min="0" maxlength="8" pattern="([0-1])" onchange="main()">
+                </div>
+    
+                <!-- Div for the decimal input -->
+                <div>
+                    <label> The converted value to decimal is equal to: </label>
+                    <div class="decimal">
+                        <label class="decvalue" id="decvalue"> </label>
+                    </div>
+                </div> 
+            </form>          
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="app.js"></script> 
+    </body>
+</html>

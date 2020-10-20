@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    background-color: #4ef542;
+}
+
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.container > form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* fraction*/
+}
+
+.container > form > div {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+label {
+    text-align: center;
+    position: relative;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5em;
+}
+
+.insrt {
+    text-align: center;
+    width:100%;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.sbt{
+    margin-top: 2rem;
+    font-family: 'Sansita Swashed', cursive;
+    background-color: #1085c9;
+    color: #ffffff;
+    border: none;
+    width: 40%;
+    height: 50px;
+}
+
+.sbt:hover{
+    background-color: #4aa1d4;
+    color: #000000;
+    border: 1px solid #ffffff;
+}
+
+.decvalue {
+    font-size: 4em;
+    color: #000000;
+}
